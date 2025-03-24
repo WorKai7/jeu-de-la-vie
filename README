@@ -1,0 +1,15 @@
+Ce répertoire contient 2 versions du jeu de la vie codées avec la bibliothèque Qt en C++.
+
+--- 1 ---
+
+La première version classique est limitée en terme de mémoire
+car elle permet de revenir dans les générations précédentes
+ce qui nécessite de stocker chaque grille.
+
+
+--- 2 ---
+
+La deuxième version (LOWRAM) n'utilise en revanche quasiment aucune mémoire
+mais vous ne pourrez pas revenir en arrière.
+Vous pouvez avec cette version simuler le jeu de la vie sur une très grande grille
+et sur des dizaines de milliers de générations.
